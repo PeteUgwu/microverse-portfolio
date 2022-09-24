@@ -58,9 +58,9 @@ header {
   margin-top: -2px;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   color: #172b4d;
@@ -197,7 +197,7 @@ button {
 
 .cards .card {
   border-radius: 16px;
-  margin-top: 8rem;
+  margin-top: 6rem;
   height: auto;
   width: 100%;
   padding: 16px;
@@ -270,4 +270,8 @@ hr {
   width: 300px;
   height: 1px;
   background: #dfe1e6;
+}
+
+.bg-white {
+  background-color: white;
 }
