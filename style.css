@@ -58,6 +58,15 @@ header {
   margin-top: -2px;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #172b4d;
+  width: 80%;
+}
+
 .h1 {
   font-weight: 700;
   font-size: 2.5rem;
@@ -78,6 +87,7 @@ header {
   color: #7f8be4;
   font-size: 1rem;
   font-weight: 200;
+  margin: 0;
 }
 
 .flex {
@@ -95,4 +105,169 @@ header {
 .icon-tag a img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+#Contact-me {
+  /* align-items: center; */
+  background: #6070ff;
+  border-top-left-radius: 80px;
+  background-image: url("/image/headerbg.png");
+  background-size: cover;
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+
+  padding: 16px;
+}
+
+.contact {
+  width: 327px;
+  height: 102px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-title {
+  margin: 70px auto 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 1rem 0 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  padding-top: 5rem;
+  /* margin: 5rem 5rem 0 0; */
+}
+
+.text-field {
+  height: 48px;
+  width: 327px;
+  margin: 0;
+  text-align: center;
+}
+
+#fname {
+  height: 48px;
+  width: 340px;
+  border-radius: 8px;
+}
+
+#lname {
+  margin-top: 1rem;
+  height: 48px;
+  width: 340px;
+  border-radius: 8px;
+}
+
+.subject {
+  /* margin-left: 20px; */
+  margin: 0;
+}
+
+#subject {
+  border-radius: 8px;
+  height: 100px;
+  width: 340px;
+  /* margin: 2rem 1.2rem auto; */
+  margin-top: 2rem;
+  color: #b3bac5;
+}
+
+button {
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* margin: 0.6rem 0 0 2.4rem; */
+  margin: auto;
+}
+
+.cards .card {
+  border-radius: 16px;
+  margin-top: 8rem;
+  height: auto;
+  width: 100%;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.img {
+  flex: none;
+  padding: 0;
+  margin: auto;
+  /* background-color: url(image_processing20200427-30692-7af91d.png); */
+  height: 280px;
+  width: 340px;
+  border-radius: 8px;
+}
+
+.works {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 16px; */
+}
+.works2 {
+  margin-right: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  color: #7a869a;
+}
+
+#aboutme {
+  border-top-right-radius: 80px;
+  margin-top: 8rem;
+  height: auto;
+  width: 100%;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.aboutme {
+  font-weight: 700;
+  width: 250px;
+  height: 101px;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  margin: 2.5rem auto 1.3rem;
+  color: #000000;
+}
+.base-about-myself {
+  padding: 18px;
+  background-color: #fff;
+}
+
+.frameworks {
+  word-spacing: 10rem;
+}
+.skills {
+  word-spacing: 13.5rem;
+}
+
+hr {
+  margin: auto 1px;
+  width: 300px;
+  height: 1px;
+  background: #dfe1e6;
 }
