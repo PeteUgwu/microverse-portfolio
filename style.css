@@ -117,7 +117,6 @@ h2 {
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
-
   padding: 16px;
 }
 
@@ -139,11 +138,12 @@ h2 {
   line-height: 52px;
   padding: 1rem 0 0;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .container {
   padding-top: 5rem;
+
   /* margin: 5rem 5rem 0 0; */
 }
 
@@ -176,6 +176,7 @@ h2 {
   border-radius: 8px;
   height: 100px;
   width: 340px;
+
   /* margin: 2rem 1.2rem auto; */
   margin-top: 2rem;
   color: #b3bac5;
@@ -191,6 +192,7 @@ button {
   border: 1px solid #dfe1e6;
   text-align: center;
   letter-spacing: 0.03em;
+
   /* margin: 0.6rem 0 0 2.4rem; */
   margin: auto;
 }
@@ -201,14 +203,13 @@ button {
   height: auto;
   width: 100%;
   padding: 16px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .img {
   flex: none;
   padding: 0;
   margin: auto;
-  /* background-color: url(image_processing20200427-30692-7af91d.png); */
   height: 280px;
   width: 340px;
   border-radius: 8px;
@@ -218,8 +219,10 @@ button {
   margin-right: 4rem;
   display: flex;
   justify-content: space-between;
+
   /* margin: 16px; */
 }
+
 .works2 {
   margin-right: 8rem;
   display: flex;
@@ -236,7 +239,7 @@ li {
   height: auto;
   width: 100%;
   padding: 16px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .aboutme {
@@ -251,8 +254,9 @@ li {
 
 h4 {
   margin: 2.5rem auto 1.3rem;
-  color: #000000;
+  color: #000;
 }
+
 .base-about-myself {
   padding: 18px;
   background-color: #fff;
@@ -261,6 +265,7 @@ h4 {
 .frameworks {
   word-spacing: 10rem;
 }
+
 .skills {
   word-spacing: 13.5rem;
 }
