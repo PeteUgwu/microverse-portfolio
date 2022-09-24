@@ -43,6 +43,17 @@ header {
   line-height: 20px;
 }
 
+.bg-languages {
+  margin: 0.7rem 0;
+  padding: 0.5rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.bg-languages a {
+  margin-right: 0.8rem;
+}
+
 .main {
   padding: 16px;
   padding-bottom: 30px;
@@ -56,6 +67,19 @@ header {
   width: 100%;
   background-color: #fff;
   margin-top: -2px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #172b4d;
+  width: 80%;
+}
+
+h3 {
+  color: #172b4d;
 }
 
 .h1 {
@@ -78,6 +102,7 @@ header {
   color: #7f8be4;
   font-size: 1rem;
   font-weight: 200;
+  margin: 0;
 }
 
 .flex {
@@ -95,4 +120,183 @@ header {
 .icon-tag a img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+#Contact-me {
+  background: #6070ff;
+  border-top-left-radius: 80px;
+  background-image: url("/image/headerbg.png");
+  background-size: cover;
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding: 16px;
+}
+
+.contact {
+  width: 327px;
+  height: 102px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-title {
+  margin: 70px auto 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 1rem 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  padding-top: 5rem;
+}
+
+.text-field {
+  height: 48px;
+  width: 327px;
+  margin: 0;
+  text-align: center;
+}
+
+#fname {
+  height: 48px;
+  width: 340px;
+  border-radius: 8px;
+}
+
+#lname {
+  margin-top: 1rem;
+  height: 48px;
+  width: 340px;
+  border-radius: 8px;
+}
+
+.subject {
+  margin: 0;
+}
+
+#subject {
+  border-radius: 8px;
+  height: 100px;
+  width: 340px;
+  margin-top: 2rem;
+  color: #b3bac5;
+}
+
+button {
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: auto;
+}
+
+.cards .card {
+  border-radius: 16px;
+  margin: 6rem auto 0;
+  height: auto;
+  width: 90%;
+  padding: 16px;
+  background: #fff;
+}
+
+.img {
+  flex: none;
+  padding: 0;
+  margin: auto;
+  height: 280px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.works {
+  display: flex;
+  align-items: center;
+}
+
+.works2 {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  color: #7a869a;
+}
+
+.works2 li {
+  margin-right: 0.5rem !important;
+}
+
+.works li {
+  margin-right: 0.3rem !important;
+}
+
+#aboutme {
+  border-top-right-radius: 80px;
+  margin-top: 8rem;
+  height: auto;
+  width: 100%;
+  padding: 16px;
+  background: #fff;
+}
+
+.aboutme {
+  font-weight: 700;
+  width: 250px;
+  height: 101px;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  margin: 2.5rem auto 1.3rem;
+  color: #000;
+}
+
+.base-about-myself {
+  padding: 18px;
+  background-color: #fff;
+}
+
+.frameworks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-spacing: 10rem;
+  width: 100%;
+  padding-right: 0.8rem;
+}
+
+.skills {
+  word-spacing: 13.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 0.8rem;
+}
+
+hr {
+  margin: auto 1px;
+  height: 1px;
+  background: #dfe1e6;
+}
+
+.bg-white {
+  background-color: white;
 }
